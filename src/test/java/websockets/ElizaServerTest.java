@@ -54,7 +54,6 @@ public class ElizaServerTest {
 	}
 
 	@Test(timeout = 1000)
-	//@Ignore
 	public void onChat() throws DeploymentException, IOException, URISyntaxException, InterruptedException {
 		CountDownLatch latch = new CountDownLatch(5);
 		List<String> list = new ArrayList<>();
