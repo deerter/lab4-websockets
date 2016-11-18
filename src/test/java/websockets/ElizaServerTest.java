@@ -93,11 +93,11 @@ public class ElizaServerTest {
     private static class ElizaEndpointToComplete extends Endpoint {
 
         private final List<String> list;
-		private final CountDownLatch latch; //
+		private final CountDownLatch latch;
 
         ElizaEndpointToComplete(List<String> list, CountDownLatch latch) {
             this.list = list;
-			this.latch = latch;  //
+			this.latch = latch;
         }
 
         @Override
